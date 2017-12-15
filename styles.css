@@ -1,0 +1,14 @@
+.stopwatch {
+	text-align: center;
+	background-color: gray;
+	display: inline-block;
+	margin: 0 auto;
+	color: white;
+	padding: 10px;
+	font-size: 50px;
+}
+nav.controls a {
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+}

@@ -15,11 +15,11 @@ class Stopwatch {
     }
 
 	print() {
-	        this.display.innerText = this.format(this.times);
+        this.display.innerText = this.format(this.times);
 	}
 
 	format(times) {
-	        return `${pad0(times.minutes)}:${pad0(times.seconds)}:${pad0(Math.floor(times.miliseconds))}`;
+	    return `${pad0(times.minutes)}:${pad0(times.seconds)}:${pad0(Math.floor(times.miliseconds))}`;
 	}
 
 	start() {
